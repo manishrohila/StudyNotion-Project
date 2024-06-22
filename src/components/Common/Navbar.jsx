@@ -51,6 +51,7 @@ function Navbar() {
       setLoading(false)
       console.log("printing sublinks",subLinks);
     })()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   // console.log("sub links", subLinks)
