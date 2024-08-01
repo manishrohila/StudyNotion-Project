@@ -6,9 +6,8 @@ import { formattedDate } from "../../../utils/dateFormatter"
 import IconBtn from "../../Common/IconBtn"
 
 export default function MyProfile() {
-  const { user } = useSelector((state) => state.profile)
   const navigate = useNavigate()
-
+  const { user } = useSelector((state) => state.profile)
   return (
     <>
       <h1 className="mb-14 text-3xl font-medium text-richblack-5">
